@@ -6,7 +6,7 @@ class Neonfiglet < Formula
   license "MIT"
 
   def install
-    bin.install "neonfiglet"
+    bin.install ".local/bin/neonfiglet"
   end
 
   test do
