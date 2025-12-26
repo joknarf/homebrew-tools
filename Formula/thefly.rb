@@ -1,9 +1,9 @@
 class Pgtree < Formula
   desc "shell plugin manager teleporter"
   homepage "https://github.com/joknarf/thefly"
-  url "https://github.com/joknarf/neonfiglet/releases/download/latest/pgtree.tar.gz"
-  version "1.2.20"
-  sha256 "29b0949a0cdf03c03e0a8132edb3a639f2f255878e60b89dd876ff0362feea4b"
+  url "https://github.com/joknarf/thefly/releases/download/1.4.1/thefly.tar.gz"
+  version "1.4.1"
+  sha256 "9fbf0aad17b2183df4dfdba381039cc4e059cf8443827a01262b9e8b7226dc7f"
   license "MIT"
 
   def install
