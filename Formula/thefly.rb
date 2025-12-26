@@ -1,4 +1,4 @@
-class Pgtree < Formula
+class Thefly < Formula
   desc "shell plugin manager teleporter"
   homepage "https://github.com/joknarf/thefly"
   url "https://github.com/joknarf/thefly/releases/download/1.4.2/thefly.tar.gz"
