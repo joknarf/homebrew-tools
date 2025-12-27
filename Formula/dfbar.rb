@@ -1,9 +1,9 @@
 class Dfbar < Formula
   desc "df enhancer with colors and usage percent bar"
   homepage "https://github.com/joknarf/dbfar"
-  url "https://github.com/joknarf/pgtree/releases/download/1.1.5/pgtree.tar.gz"
-  version "1.1.5"
-  sha256 "360fb873d6642229fbf688e1ceb98517ee6d2ca3bc34936e78e4859e945b78c0"
+  url "https://github.com/joknarf/dfbar/releases/download/1.0.1/dfbar.tar.gz"
+  version "1.0.1"
+  sha256 "e67b1963085b5fa0c04a9552aec3c301ca32318811f9b1f58e6f82850071eae4"
   license "MIT"
 
   def install
