@@ -3,7 +3,7 @@ class Targpg < Formula
   homepage "https://github.com/joknarf/targpg"
   url "https://github.com/joknarf/targpg/releases/download/1.0.1/targpg.tar.gz"
   version "1.0.1"
-  sha256 "1ca1a29df45a618a546edfb1317c621f195172b21547458959e5f65b66b53a36"
+  sha256 "65a751d03d872e1393576272832b6de62998ce1accbbdd4431376da938b3cb28"
   license "MIT"
 
   def install
