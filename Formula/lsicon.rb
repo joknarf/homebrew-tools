@@ -7,7 +7,7 @@ class Lsicon < Formula
   license "MIT"
 
   def install
-    bin.install "bin/ls+"
+    prefix.install "bin", "share"
   end
 
 end
