@@ -1,9 +1,9 @@
 class Mkshz < Formula
   desc "self extracting shell gzip tarball packager"
   homepage "https://github.com/joknarf/mkshz"
-  url "https://github.com/joknarf/mkshz/releases/download/1.0.2/mkshz.tar.gz"
-  version "1.0.2"
-  sha256 "d547acb88b49a7fb6c0e401dc764d701b242b963b563426e2d769e7a5095b245"
+  url "https://github.com/joknarf/mkshz/releases/download/1.0.3/mkshz.tar.gz"
+  version "1.0.3"
+  sha256 "6cae50f72b920849199851947b844e1dad3d032f642efe0b9cd759a736c5361e"
   license "MIT"
 
   def install
