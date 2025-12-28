@@ -1,9 +1,9 @@
 class Pgtree < Formula
   desc "process tree search"
   homepage "https://github.com/joknarf/pgtree"
-  url "https://github.com/joknarf/pgtree/releases/download/1.1.6/pgtree.tar.gz"
-  version "1.1.6"
-  sha256 "0ba135805199ccc83c67410388ee5bc94f25307627a08713dffd29313c146210"
+  url "https://github.com/joknarf/pgtree/releases/download/1.1.7/pgtree.tar.gz"
+  version "1.1.7"
+  sha256 "28bda21c2531a653f9644db77a734506558fd4ee13fed7fdeef091680812e824"
   license "MIT"
 
   def install
