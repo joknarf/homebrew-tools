@@ -3,7 +3,7 @@ class Mkshz < Formula
   homepage "https://github.com/joknarf/mkshz"
   url "https://github.com/joknarf/mkshz/releases/download/1.0.3/mkshz.tar.gz"
   version "1.0.3"
-  sha256 "6cae50f72b920849199851947b844e1dad3d032f642efe0b9cd759a736c5361e"
+  sha256 "5696382c45db211962c6d1c345aff1742e520a8149a99e61be8565627d4eb43f"
   license "MIT"
 
   def install
