@@ -20,7 +20,8 @@ class Portune < Formula
   end
 
   def install
-    bin.install "portune"
+    libexec.install Dir["*"]
+    bin.install_symlink libexec/"portune"
   end
 
 end
