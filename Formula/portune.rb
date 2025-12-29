@@ -1,10 +1,10 @@
 class Portune < Formula
   desc "massive port scanner"
   homepage "https://github.com/joknarf/portune"
-  version "1.4.5"
+  version "1.0.9"
   license "MIT"
 
-  AMD64 = { url: "https://…/portune-1.4.5-darwin-amd64.tar.gz", sha256: "XXX" }
+  AMD64 = { url: "https://github.com/joknarf/portune/releases/download/1.0.9/portune-darwin-amd64.tar.gz", sha256: "a21211f0747d3389f69b4db4a94ac666c476af29361b19a7e4f48a7eb02cb0eb" }
   ARM64 = { url: "https://…/portune-1.4.5-darwin-arm64.tar.gz", sha256: "YYY" }
 
   on_macos do
