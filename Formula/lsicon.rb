@@ -3,7 +3,7 @@ class Lsicon < Formula
   homepage "https://github.com/joknarf/lsicon"
   url "https://github.com/joknarf/lsicon/releases/download/1.2.8/lsicon.tar.gz"
   version "1.2.8"
-  sha256 "35e7b1e4b4ca6f2630948a6f37d5720bfb9140de7ca6a7f421331d2857fee397"
+  sha256 "9ff148532a7b860e5ff1ff49a90cdb6dc6d01551d15dd723bbb6c5cac4d88096"
   license "MIT"
 
   def install
