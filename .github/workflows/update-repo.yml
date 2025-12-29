@@ -23,15 +23,12 @@ jobs:
         fetch-depth: 0
         persist-credentials: true
 
-    - name: Generate Homebrew metadata JSON
-      run: |
-        brew info --json=v2 --formula ./Formula/*.rb > formulas.json
-
     - name: Generate index.html
       run: |
         set -euo pipefail
 
-        brew info --json=v2 --formula ./Formula/*.rb > formulas.json
+        brew tap joknarf/tools .
+        brew info --json=v2 joknarf/tools/* > formulas.json
 
         cat > index.html <<'EOF'
         <html>
