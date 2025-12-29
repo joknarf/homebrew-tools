@@ -82,21 +82,21 @@ jobs:
         EOF
 
         jq -r '
-            .formulae[] |
-            "<tr>" +
-                "<td><a href=\"Formula/\(.name).rb\">\(.name)</a></td>" +
-                "<td>\(.versions.stable // "head")</td>" +
-                "<td>\(.desc // "")</td>" +
-                "<td>" +
-                    (
-                        .bottle.stable.files
-                        | to_entries
-                        | map(.key)
-                        | sort
-                        | join(", ")
-                    ) +
-                "</td>" +
-            "</tr>"
+          .formulae[] |
+          "<tr>" +
+            "<td><a href=\"Formula/\(.name).rb\">\(.name)</a></td>" +
+            "<td>\(.versions.stable // "head")</td>" +
+            "<td>\(.desc // "")</td>" +
+            "<td>" +
+              (
+                (.bottle.stable.files // {}) 
+                | to_entries 
+                | map(.key) 
+                | sort 
+                | join(", ")
+              ) +
+            "</td>" +
+          "</tr>"
         ' formulas.json >> index.html
 
         cat >> index.html <<'EOF'
