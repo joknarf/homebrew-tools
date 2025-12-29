@@ -5,7 +5,7 @@ class SshPara < Formula
   license "MIT"
 
   AMD64 = { url: "https://github.com/joknarf/ssh-para/releases/download/1.7.53/ssh-para-macos-amd64.tar.gz", sha256: "eeb38ef1a2df8521601b28ccc8971d6ac26bd0ed826c74b68c43218a75f7ca5c" }
-  ARM64 = { url: "", sha256: "" }
+  ARM64 = { url: "https://github.com/joknarf/ssh-para/releases/download/1.7.53/ssh-para-macos-arm64.tar.gz", sha256: "e964e281a8b12188a95629607ad1b23773931ee03cc953380fa74398d3668c91" }
 
   on_macos do
     if Hardware::CPU.intel?
