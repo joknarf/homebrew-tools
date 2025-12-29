@@ -28,7 +28,8 @@ jobs:
         set -euo pipefail
 
         brew tap joknarf/tools .
-        brew info --json=v2 joknarf/tools/* > formulas.json
+        FORMULAE=$(brew formulae joknarf/tools)
+        brew info --json=v2 $FORMULAE > formulas.json
 
         cat > index.html <<'EOF'
         <html>
