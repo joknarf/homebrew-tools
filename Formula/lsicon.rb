@@ -6,6 +6,8 @@ class Lsicon < Formula
   sha256 "9ff148532a7b860e5ff1ff49a90cdb6dc6d01551d15dd723bbb6c5cac4d88096"
   license "MIT"
 
+  depends_on "gawk"
+
   def install
     prefix.install "bin", "share"
   end
