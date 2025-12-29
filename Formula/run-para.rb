@@ -1,10 +1,10 @@
 class RunPara < Formula
   desc "parallel job manager"
   homepage "https://github.com/joknarf/run-para"
-  version "1.0.14"
+  version "1.2.20"
   license "MIT"
 
-  AMD64 = { url: "", sha256: "" }
+  AMD64 = { url: "https://github.com/joknarf/run-para/releases/download/1.2.20/run-para-macos-amd64.tar.gz", sha256: "57829e89d26af93f155a7b1a3975d3767cf42344a45dc82b1d3be7a91130f703" }
   ARM64 = { url: "", sha256: "" }
 
   on_macos do
