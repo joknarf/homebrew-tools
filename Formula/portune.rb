@@ -20,7 +20,7 @@ class Portune < Formula
   end
 
   def install
-    bin.install "portune"
+    bin.install "bin/portune"
   end
 
 end
