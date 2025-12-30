@@ -5,7 +5,7 @@ class Portune < Formula
   license "MIT"
 
   AMD64 = { url: "https://github.com/joknarf/pywebfs/releases/download/1.1.21/pywebfs-darwin-amd64.tar.gz", sha256: "f6623ebc12287f539487301300a65e49435e9804e9f329680f347e19b415a4fe" }
-  ARM64 = { url: "https://github.com/joknarf/pywebfs/releases/download/1.1.20/pywebfs-darwin-arm64.tar.gz", sha256: "de70a8b4a5b841f3e59cbd4d095213ad927b46c59b7251f7d99e87863682cef2" }
+  ARM64 = { url: "https://github.com/joknarf/pywebfs/releases/download/1.1.21/pywebfs-darwin-arm64.tar.gz", sha256: "d54dc7833f7a069ba88aea6430fd717e96e02665456fc55d9fc194acc0144c50" }
 
   on_macos do
     if Hardware::CPU.intel?
