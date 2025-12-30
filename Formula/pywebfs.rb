@@ -1,4 +1,4 @@
-class Portune < Formula
+class Pywebfs < Formula
   desc "simple HTTP file server"
   homepage "https://github.com/joknarf/portune"
   version "1.1.21"
