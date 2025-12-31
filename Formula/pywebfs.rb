@@ -5,7 +5,7 @@ class Pywebfs < Formula
   license "MIT"
 
   AMD64 = { url: "https://github.com/joknarf/pywebfs/releases/download/1.1.24/pywebfs-darwin-amd64.tar.gz", sha256: "ef8836b48fd3bad2c77ed2669d633d3632c380d6e7c7171ffa61a771ad915fb0" }
-  ARM64 = { url: "https://github.com/joknarf/pywebfs/releases/download/1.1.23/pywebfs-darwin-arm64.tar.gz", sha256: "e27a4aaa2e701ec1c0e3e1c18315954ec80b3a33befbee2ce14845750359800e" }
+  ARM64 = { url: "https://github.com/joknarf/pywebfs/releases/download/1.1.24/pywebfs-darwin-arm64.tar.gz", sha256: "9f8b9a844c02dd6b18029f6e58f4e55894e2d922d32cd9f47c3c7c7233f2bd13" }
 
   on_macos do
     if Hardware::CPU.intel?
