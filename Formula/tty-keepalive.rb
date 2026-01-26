@@ -1,9 +1,9 @@
 class TtyKeepalive < Formula
   desc "TTY activity simulator"
   homepage "https://github.com/joknarf/tty-keepalive"
-  url "https://github.com/joknarf/tty-keepalive/releases/download/1.0.5/tty-keepalive.tar.gz"
-  version "1.0.5"
-  sha256 "d322717460e04a9ff73d31f6b15884ffd956a96850c4da73f691f9d6e64a70ae"
+  url "https://github.com/joknarf/tty-keepalive/releases/download/1.0.6/tty-keepalive.tar.gz"
+  version "1.0.6"
+  sha256 "3579287dfd2d7a184f03fb2b66b8e14197a1e8e47484bbc273a55d4ea0e01de6"
   license "MIT"
 
   def install
