@@ -1,9 +1,9 @@
 class Selector < Formula
   desc "Interactive dynamic select menu"
   homepage "https://github.com/joknarf/selector"
-  url "https://github.com/joknarf/selector/releases/download/1.3.8/selector.tar.gz"
-  version "1.3.8"
-  sha256 "d826e0275f77df9e503c32fe079b17d162f43b82e4365b9fd5e7f96a10d7b030"
+  url "https://github.com/joknarf/selector/releases/download/1.3.1/selector.tar.gz"
+  version "1.3.1"
+  sha256 "a5f0f905e4bea2a716697a4a01df120e76be91afc0fd141f0d534b262dd4f10f"
   license "MIT"
 
   def install
