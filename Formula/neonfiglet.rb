@@ -1,9 +1,9 @@
 class Neonfiglet < Formula
   desc "Animated Fun Banners"
   homepage "https://github.com/joknarf/neonfiglet"
-  url "https://github.com/joknarf/neonfiglet/releases/download/1.3.9/neonfiglet.tar.gz"
-  version "1.3.9"
-  sha256 "bc19fa324cb850ee18c9d9252748413bd8865e84a2b3e378a977634366c78726"
+  url "https://github.com/joknarf/neonfiglet/releases/download/1.4.0/neonfiglet.tar.gz"
+  version "1.4.0"
+  sha256 "19cf8ec5be3559e7ff04db8d237928fe746d04ea3938a9624c03d737902d80ab"
   license "MIT"
 
   def install
