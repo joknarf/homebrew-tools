@@ -1,9 +1,9 @@
 class Thefly < Formula
   desc "shell plugin manager teleporter"
   homepage "https://github.com/joknarf/thefly"
-  url "https://github.com/joknarf/thefly/releases/download/1.4.8/thefly.tar.gz"
-  version "1.4.8"
-  sha256 "a1b988b157d4712c1ba212456f68680b8afa2a6543089ec58cce479d1f65fb81"
+  url "https://github.com/joknarf/thefly/releases/download/1.5.0/thefly.tar.gz"
+  version "1.5.0"
+  sha256 "1360ed08a2a0af21bb13bbc2e3dc8327c0953036efdaae8f10315908082faf2b"
   license "MIT"
 
   def install
