@@ -3,7 +3,7 @@ class Thefly < Formula
   homepage "https://github.com/joknarf/thefly"
   url "https://github.com/joknarf/thefly/releases/download/1.5.3/thefly.tar.gz"
   version "1.5.3"
-  sha256 "57c76e5dd197dcd1629eafd9280f805ea7b20dfa63fbb9af2e0ae2805bd12237"
+  sha256 "1be113d37e56a6a4df6f6dd0d8b69f512f968392dbe2cd049a9d5cb064488ea7"
   license "MIT"
 
   def install
