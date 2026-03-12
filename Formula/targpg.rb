@@ -1,9 +1,9 @@
 class Targpg < Formula
   desc "tar gpg password encrypt/decrypt"
   homepage "https://github.com/joknarf/targpg"
-  url "https://github.com/joknarf/targpg/releases/download/1.0.2/targpg.tar.gz"
-  version "1.0.2"
-  sha256 "c065a71c25928fe0fabe1d182abd9e5e8f79f9841b1515d639ecab2ef718ee48"
+  url "https://github.com/joknarf/targpg/releases/download/1.0.3/targpg.tar.gz"
+  version "1.0.3"
+  sha256 "de9908cba63f5e90a7de366e669851c2b45d1ef456cc1f0c81dbbb3b11023b76"
   license "MIT"
 
   def install
