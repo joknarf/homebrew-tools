@@ -1,9 +1,9 @@
 class Lsicon < Formula
   desc "ls command enhancer (icons/colors/tree)"
   homepage "https://github.com/joknarf/lsicon"
-  url "https://github.com/joknarf/lsicon/releases/download/1.3.3/lsicon.tar.gz"
-  version "1.3.3"
-  sha256 "b15be672256ee63e986422d4a8ae72dd7ca72e4323d8d3d6433bc36713fab814"
+  url "https://github.com/joknarf/lsicon/releases/download/1.3.4/lsicon.tar.gz"
+  version "1.3.4"
+  sha256 "ed67f6b4df04dd8ed043f09862c2f5a84dc545033397ab3465c4081b4f1cab33"
   license "MIT"
 
   depends_on "gawk"
