@@ -5,7 +5,7 @@ class Portune < Formula
   license "MIT"
 
   AMD64 = { url: "https://github.com/joknarf/portune/releases/download/1.0.15/portune-darwin-amd64.tar.gz", sha256: "b37fdea248b794252406fc1ada7022aba1b09b31d765347b86fe3192d7898450" }
-  ARM64 = { url: "https://github.com/joknarf/portune/releases/download/1.0.14/portune-darwin-arm64.tar.gz", sha256: "" }
+  ARM64 = { url: "https://github.com/joknarf/portune/releases/download/1.0.15/portune-darwin-arm64.tar.gz", sha256: "de6d4614b1e06a35351b65887fc2eae2b2e1dd260decf1620cfb7a76b11c9586" }
 
   on_macos do
     if Hardware::CPU.intel?
