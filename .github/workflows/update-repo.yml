@@ -27,6 +27,9 @@ jobs:
       run: |
         set -euo pipefail
 
+        brew trust joknarf/tools
+        brew trust aws/tap
+        brew trust hashicorp/tap
         brew tap joknarf/tools .
         FORMULAE=$(brew formulae |grep "^joknarf/tools")
         brew info --json=v2 $FORMULAE > formulas.json
