@@ -3,7 +3,10 @@
 
 # homebrew-tools
 
+https://joknarf.github.io/homebrew-tools/
+
 Activate homebrew tap using:
 ```
+brew trust joknarf/tools
 brew tap joknarf/tools
 ```
