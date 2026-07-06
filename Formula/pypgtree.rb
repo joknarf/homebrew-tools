@@ -1,4 +1,4 @@
-class Pgtree < Formula
+class Pypgtree < Formula
   desc "process tree search"
   homepage "https://github.com/joknarf/pgtree"
   url "https://github.com/joknarf/pgtree/releases/download/1.1.13/pypgtree.tar.gz"
