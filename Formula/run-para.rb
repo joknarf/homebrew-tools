@@ -5,7 +5,7 @@ class RunPara < Formula
   license "MIT"
 
   AMD64 = { url: "https://github.com/joknarf/run-para/releases/download/1.2.21/run-para-macos-amd64.tar.gz", sha256: "035a5503b7592f9c52dd8dadc1cf4b2251290e7e69a385699d4377ad6e6e203e" }
-  ARM64 = { url: "https://github.com/joknarf/run-para/releases/download/1.2.20/run-para-macos-arm64.tar.gz", sha256: "5f2f1cb9f9f0443490a46d206c932d501a48b68a9c18ef6fde0b96f425fcb140" }
+  ARM64 = { url: "https://github.com/joknarf/run-para/releases/download/1.2.21/run-para-macos-arm64.tar.gz", sha256: "93c51b52e8af0b1ab2ddb90ff5003322e72e1edcc0e8105b6329d28d91405ebb" }
 
   on_macos do
     if Hardware::CPU.intel?
