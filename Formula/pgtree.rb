@@ -8,6 +8,7 @@ class Pgtree < Formula
 
   def install
     bin.install "bin/pgtree"
+    bash_completion.install "share/bash-completion/completions/pgtree"
   end
 
   test do
