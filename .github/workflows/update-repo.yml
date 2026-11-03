@@ -6,6 +6,7 @@ permissions:
   id-token: write
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -32,6 +33,9 @@ jobs:
         brew trust hashicorp/tap
         brew tap joknarf/tools .
         FORMULAE=$(brew formulae |grep "^joknarf/tools")
+        while IFS= read -r formula; do
+          brew trust --formula "$formula"
+        done <<< "$FORMULAE"
         brew info --json=v2 $FORMULAE > formulas.json
 
         cat > index.html <<'EOF'
