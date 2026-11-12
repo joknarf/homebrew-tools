@@ -8,7 +8,7 @@ class Pgtree < Formula
 
   def install
     bin.install "bin/pgtree"
-    (share/"pgtree").install Dir["share/*"]
+    (share/"pgtree").install Dir["share/pgtree/*"]
     bash_completion.install_symlink bin/"pgtree"
   end
 
